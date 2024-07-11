@@ -65,9 +65,9 @@ body  {
     padding: 8px 17px;
     background-color: #3b71fe;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 8px;/*bo tròn góc*/
 }
 
 p {
-    line-height: 1;
+    line-height: 1;/*khoảng cách giữa các dòng*/
 }
