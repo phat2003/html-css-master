@@ -49,6 +49,7 @@ body  {
     margin-bottom: 10px;
     color: #23262f;
     font-weight: 500;
+    padding-bottom: 10px;
     font-size: 18px;
     /* line-height: 28px; */
     line-height: 1.556;
@@ -71,6 +72,7 @@ body  {
     text-decoration: none;/*gạch dưới của thẻ có link như thẻ a, nên để none nếu không muốn có gạch chân ở dưới link*/
     border-radius: 8px;/*bo tròn góc*/
     line-height: 17px;
+    display: inline-block;
 }
 
 p {
