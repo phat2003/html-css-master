@@ -71,10 +71,13 @@ body  {
     background-color: #3b71fe;/*màu nền*/
     text-decoration: none;/*gạch dưới của thẻ có link như thẻ a, nên để none nếu không muốn có gạch chân ở dưới link*/
     border-radius: 8px;/*bo tròn góc*/
-    line-height: 17px;
+    line-height: 17px;/*khoảng cách giữa các dòng*/
     display: inline-block;
 }
 
-p {
-    line-height: 1;/*khoảng cách giữa các dòng*/
+.text {
+    min-width: 100px;/*độ rộng tối thiểu*/
+    max-width: 200px;/*độ rộng tối đa*/
+    display: inline-block;
 }
+
