@@ -11,7 +11,7 @@ body  {
 }
 
 .tour {
-    width: 370px;
+    width: 33.33%;
     background-color: white;
     border-radius: 10px;
     /*overflow: hidden; khi sử dụng border-radius thì hình ảnh sẽ không bo góc và sẽ bị tràn ra ngoài do hình ảnh bản chất ban đầu nó không bo góc rồi.
@@ -70,5 +70,5 @@ body  {
     nếu flex set là row thì làm các cột có chiều cao bằng nhau.
     nếu flex set là column thì làm cho các cột có chiều rộng bằng nhau.
     (dòng này có thể hiểu nôm na là ví dụ nếu có 3 cột có nội dung giống nhau nhưng có 1 cột có nội dung ít hơn 2 khối còn lại thì chiều cao/độ rộng của cột đó vẫn sẽ bằng với chiều cao/độ rộng của cột còn lại(cột ở đây tạm hiểu là chiều cao/độ rộng của khối)) */
-    
+    flex-wrap: wrap;
 }
