@@ -16,6 +16,7 @@ body  {
     border-radius: 10px;
     /*overflow: hidden; khi sử dụng border-radius thì hình ảnh sẽ không bo góc và sẽ bị tràn ra ngoài do hình ảnh bản chất ban đầu nó không bo góc rồi.
     vậy nên để ép hình ảnh bo góc theo khối luôn thì ta phải thêm thuộc tính overflow: hidden;*/
+    margin-left: 30px;
 }
 
 .tour-content {
@@ -56,6 +57,9 @@ body  {
 
 .tour-image {
     border-radius: 10px 10px 0 0;
+    width: 100%;/*độ rộng nếu dùng % thì nó sẽ lấy % độ rộng của lớp cha gần nhất chứa nó*/
+    height: 239px;
+    object-fit: cover;
 }
 
 .tour-list {
