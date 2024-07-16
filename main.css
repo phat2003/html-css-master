@@ -61,7 +61,10 @@ body  {
     font-size: 18px;
     /* line-height: 28px; */
     line-height: 1.556;
-    white-space: nowrap;
+    /* white-space: nowrap; */ /*ép các chữ nằm trên 1 hàng*/
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
 }
