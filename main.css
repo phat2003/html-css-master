@@ -44,6 +44,7 @@ body  {
     khi set margin thêm 30px mà muốn chúng vẫn nằm trên 1 hàng và bằng độ rộng lớp cha thì phải sử dụng thuộc tính calc cho width để trừ đi margin*/
     /* overflow: hidden; */
     word-break: break-word;
+    
 }
 
 .tour-content {
@@ -60,6 +61,9 @@ body  {
     font-size: 18px;
     /* line-height: 28px; */
     line-height: 1.556;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .tour-rating {
