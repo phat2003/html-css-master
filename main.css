@@ -82,5 +82,5 @@ body  {
     nếu flex set là column thì làm cho các cột có chiều rộng bằng nhau.
     (dòng này có thể hiểu nôm na là ví dụ nếu có 3 cột có nội dung giống nhau nhưng có 1 cột có nội dung ít hơn 2 khối còn lại thì chiều cao/độ rộng của cột đó vẫn sẽ bằng với chiều cao/độ rộng của cột còn lại(cột ở đây tạm hiểu là chiều cao/độ rộng của khối)) */
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
 }
