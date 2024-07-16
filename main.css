@@ -38,9 +38,12 @@ body  {
     vậy nên để ép hình ảnh bo góc theo khối luôn thì ta phải thêm thuộc tính overflow: hidden;*/
     /* margin-left: 30px;
     margin-bottom: 30px; */
+    /* width: calc(33.33% - 30px); */
     width: calc(33.33% - 20px);/*ở đây có 3 khối tour dùng chung thuộc tính css này, 3 khối tour mỗi cái có độ rộng là 33.33% khối cha chứa nó là tour list với độ rộng 1170px, thì ba khối tour 33.33% cộng lại là 99.99% làm tròn là 100% độ rộng của lớp cha, chính vì ba khối cộng lại bằng độ rộng lớp cha nên chúng sẽ nằm trên 1 hàng. 
     do mỗi tour + thêm 30px từ margin-left nên độ rộng sẽ bị tăng lên 30px x3 nên 3 khối sẽ không còn nằm trên 1 hàng nữa do không cùng độ rộng với lớp cha
     khi set margin thêm 30px mà muốn chúng vẫn nằm trên 1 hàng và bằng độ rộng lớp cha thì phải sử dụng thuộc tính calc cho width để trừ đi margin*/
+    /* overflow: hidden; */
+    word-break: break-word;
 }
 
 .tour-content {
