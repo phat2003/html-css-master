@@ -8,6 +8,7 @@ body  {
         font-family: "Inter", sans-serif;
         font-weight: 500;
         background-color: #f5f5f5;
+        padding: 40px 0;
 }
 
 .tour-list-container {
@@ -53,21 +54,20 @@ body  {
 }
 
 .tour-tittle {
-    /* background-color: red; */
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #23262f;
     font-weight: 500;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     font-size: 18px;
     /* line-height: 28px; */
     line-height: 1.556;
     /* white-space: nowrap; */ /*ép các chữ nằm trên 1 hàng*/
     display:-webkit-box;
-    -webkit-line-clamp:1;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    word-break: break-word;
+    overflow: hidden; /*ẩn các thành phần bị tràn ra ngoài 1 khối*/
+    text-overflow: ellipsis;/*hiện dấu ba chấm để chứng minh là dòng chữ đó dài và không đủ chỗ để hiển thị*/
+    word-break: break-word;/*cho các dòng chữ xuống dòng sẽ xuống dòng theo từ nếu từ đó nằm ở vị trí độ rộng của hàng chữ không đủ chứ không phải là xuống dòng giữa chừng và cắt xuống dòng giữa từ đó*/
 }
 
 .tour-rating {
