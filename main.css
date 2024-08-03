@@ -105,6 +105,25 @@ body  {
     width: 100%;/*độ rộng nếu dùng % thì nó sẽ lấy % độ rộng của lớp cha gần nhất chứa nó, ở đây là lớp tour-top mà do tour-top kế thừa từ lớp cha là tour là 33,33% nên 100% ở đây sẽ bằng với lớp cha là 33.33%*/
     height: 239px;
     object-fit: cover;/*hay được sử dụng cho hình ảnh, mục đích là: lấy ví dụ như hình ảnh nhỏ, nhưng khối chứa nó to hơn cái hình, mà chúng ta muốn cái hình nó to ra bằng với khối và ảnh không bị méo do bị kéo giãn ra thì ta dùng lệnh này.*/
+    display: block;
+}
+
+.tour-top {
+    position: relative;
+}
+
+.tour-price {
+    position: absolute;
+    top: 24px;
+    left: 30px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fcfcfc;
+    background-color: rgb(53, 57, 69, 0.8);
+    padding: 5px 16px;
+    line-height: 20px;
+    border-radius: 4px;
 }
 
 
